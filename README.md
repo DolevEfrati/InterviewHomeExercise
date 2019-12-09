@@ -17,8 +17,8 @@ The input files are in the project under the "resources/csvFiles" path. For the 
 
 ## Description of the solution
 The input files are scanned line by line. 
-For each new pageView it is inserted into the correct ArrayList<PageView>.
-After insertion, the ArrayList<PageView> is converted to ArrayList<Session>.
+For each new pageView it is inserted into the correct ArrayList(PageView).
+After insertion, the ArrayList(PageView) is converted to ArrayList(Session).
   
 ## Complexity
 The time complexity is O(nlog(n)).
